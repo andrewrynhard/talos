@@ -93,7 +93,7 @@ local buildkit = {
 local Step(name, target='', depends_on=[], environment={}) = {
   local make = if target == '' then std.format('make %s', name) else std.format('make %s', target),
   local common_env_vars = {
-    BUILDKIT_HOST: '${BUILDKIT_HOST=tcp://buildkitd.ci.svc:1234}',
+    DOCKER_HOST: '${DOCKER_HOST=tcp://docker-amd64.ci.svc:1234}',
     BINDIR: '/usr/local/bin',
   },
 
