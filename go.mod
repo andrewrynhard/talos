@@ -59,7 +59,7 @@ require (
 	github.com/opencontainers/runc v1.0.0-rc92 // indirect
 	github.com/opencontainers/runtime-spec v1.0.3-0.20200728170252-4d89ac9fbff6
 	github.com/pin/tftp v2.1.0+incompatible
-	github.com/plunder-app/kube-vip v0.3.3
+	github.com/plunder-app/kube-vip v0.3.4
 	github.com/prometheus/procfs v0.6.0
 	github.com/rivo/tview v0.0.0-20210217110421-8a8f78a6dd01
 	github.com/rs/xid v1.3.0
@@ -85,10 +85,10 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.0-alpha.0
 	go.etcd.io/etcd/etcdctl/v3 v3.5.0-alpha.0
 	go.etcd.io/etcd/pkg/v3 v3.5.0-alpha.0
-	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
+	golang.org/x/net v0.0.0-20210505024714-0287a6fb4125
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210426230700-d19ff857e887
-	golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d
+	golang.org/x/sys v0.0.0-20210503173754-0981d6026fa6
+	golang.org/x/term v0.0.0-20210503060354-a79de5458b56
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20210427135350-f9ad6d392236
 	google.golang.org/grpc v1.37.0
