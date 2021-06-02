@@ -27,7 +27,7 @@ require (
 	github.com/containernetworking/plugins v0.9.1
 	github.com/coreos/go-iptables v0.6.0
 	github.com/coreos/go-semver v0.3.0
-	github.com/cosi-project/runtime v0.0.0-20210409233936-10d6103c19ab
+	github.com/cosi-project/runtime v0.0.0-20210601163656-105af5e15a53
 	github.com/docker/distribution v2.7.1+incompatible
 	github.com/docker/docker v20.10.6+incompatible
 	github.com/docker/go-connections v0.4.0
@@ -36,72 +36,72 @@ require (
 	github.com/emicklei/dot v0.16.0
 	github.com/emicklei/go-restful v2.15.0+incompatible // indirect
 	github.com/evanphx/json-patch v4.9.0+incompatible
-	github.com/fatih/color v1.11.0
+	github.com/fatih/color v1.12.0
 	github.com/firecracker-microvm/firecracker-go-sdk v0.22.0
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/fullsailor/pkcs7 v0.0.0-20190404230743-d7302db945fa
-	github.com/gdamore/tcell/v2 v2.3.1
+	github.com/gdamore/tcell/v2 v2.3.8
 	github.com/gizak/termui/v3 v3.1.0
 	github.com/golang/protobuf v1.5.2
-	github.com/google/go-cmp v0.5.5
+	github.com/google/go-cmp v0.5.6
 	github.com/google/uuid v1.2.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/hashicorp/go-getter v1.5.3
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/insomniacslk/dhcp v0.0.0-20210120172423-cc9239ac6294
-	github.com/jsimonetti/rtnetlink v0.0.0-20210226120601-1b79e63a70a0
-	github.com/mattn/go-isatty v0.0.12
+	github.com/insomniacslk/dhcp v0.0.0-20210528123148-fb4eaaa00ad2
+	github.com/jsimonetti/rtnetlink v0.0.0-20210531051304-b34cb89a106b
+	github.com/mattn/go-isatty v0.0.13
 	github.com/mdlayher/ethtool v0.0.0-20210210192532-2b88debcdd43
 	github.com/mdlayher/genetlink v1.0.0
-	github.com/mdlayher/netlink v1.4.0
+	github.com/mdlayher/netlink v1.4.1
 	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/opencontainers/runtime-spec v1.0.3-0.20200929063507-e6143ca7d51d
 	github.com/pin/tftp v2.1.0+incompatible
 	github.com/plunder-app/kube-vip v0.3.4
 	github.com/prometheus/procfs v0.6.0
-	github.com/rivo/tview v0.0.0-20210217110421-8a8f78a6dd01
+	github.com/rivo/tview v0.0.0-20210531104647-807e706f86d1
 	github.com/rs/xid v1.3.0
 	github.com/ryanuber/columnize v2.1.2+incompatible
 	github.com/smira/go-xz v0.0.0-20201019130106-9921ed7a9935
 	github.com/spf13/cobra v1.1.3
 	github.com/stretchr/testify v1.7.0
-	github.com/talos-systems/crypto v0.2.1-0.20210427105118-4f80b976b640
-	github.com/talos-systems/go-blockdevice v0.2.1-0.20210510233948-1292574643e0
+	github.com/talos-systems/crypto v0.2.1-0.20210526123943-7776057f5086
+	github.com/talos-systems/go-blockdevice v0.2.1-0.20210526155905-30c2bc3cb62a
 	github.com/talos-systems/go-cmd v0.0.0-20210216164758-68eb0067e0f0
-	github.com/talos-systems/go-debug v0.2.0
+	github.com/talos-systems/go-debug v0.2.1-0.20210525175311-3d0a6e1bf5e3
 	github.com/talos-systems/go-kmsg v0.1.0
 	github.com/talos-systems/go-loadbalancer v0.1.1
 	github.com/talos-systems/go-procfs v0.0.0-20210108152626-8cbc42d3dc24
-	github.com/talos-systems/go-retry v0.2.1-0.20210119124456-b9dc1a990133
+	github.com/talos-systems/go-retry v0.3.0
 	github.com/talos-systems/go-smbios v0.0.0-20210422124317-d3a32bea731a
 	github.com/talos-systems/grpc-proxy v0.2.0
 	github.com/talos-systems/net v0.2.1-0.20210212213224-05190541b0fa
-	github.com/talos-systems/talos/pkg/machinery v0.0.0-20210302191918-8ffb55943c71
+	github.com/talos-systems/talos/pkg/machinery v0.0.0-00010101000000-000000000000
 	github.com/u-root/u-root v7.0.0+incompatible
 	github.com/vmware-tanzu/sonobuoy v0.50.0
 	github.com/vmware/govmomi v0.25.0
 	github.com/vmware/vmw-guestinfo v0.0.0-20200218095840-687661b8bd8e
-	go.etcd.io/etcd/api/v3 v3.5.0-alpha.0
-	go.etcd.io/etcd/client/v3 v3.5.0-alpha.0
-	go.etcd.io/etcd/etcdctl/v3 v3.5.0-alpha.0
-	go.etcd.io/etcd/pkg/v3 v3.5.0-alpha.0
-	golang.org/x/net v0.0.0-20210505214959-0714010a04ed
+	go.etcd.io/etcd/api/v3 v3.5.0-beta.4
+	go.etcd.io/etcd/client/pkg/v3 v3.5.0-beta.4
+	go.etcd.io/etcd/client/v3 v3.5.0-beta.4
+	go.etcd.io/etcd/etcdutl/v3 v3.5.0-beta.4
+	go.uber.org/zap v1.17.0
+	golang.org/x/net v0.0.0-20210525063256-abc453219eb5
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210503173754-0981d6026fa6
+	golang.org/x/sys v0.0.0-20210531080801-fdfd190a6549
 	golang.org/x/term v0.0.0-20210503060354-a79de5458b56
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
-	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20210427135350-f9ad6d392236
-	google.golang.org/grpc v1.37.1
+	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20210506160403-92e472f520a5
+	google.golang.org/grpc v1.38.0
 	google.golang.org/protobuf v1.26.0
 	gopkg.in/freddierice/go-losetup.v1 v1.0.0-20170407175016-fc9adea44124
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
-	honnef.co/go/tools v0.1.2 // indirect
 	inet.af/netaddr v0.0.0-20210430201628-1d252cf8125e
-	k8s.io/api v0.21.0
-	k8s.io/apimachinery v0.21.0
-	k8s.io/apiserver v0.21.0 // indirect
-	k8s.io/client-go v0.21.0
-	k8s.io/cri-api v0.21.0
-	k8s.io/kubectl v0.21.0
-	k8s.io/kubelet v0.21.0
+	k8s.io/api v0.21.1
+	k8s.io/apimachinery v0.21.1
+	k8s.io/apiserver v0.21.1 // indirect
+	k8s.io/client-go v0.21.1
+	k8s.io/cri-api v0.21.1
+	k8s.io/kubectl v0.21.1
+	k8s.io/kubelet v0.21.1
 )
