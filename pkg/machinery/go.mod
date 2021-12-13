@@ -20,7 +20,7 @@ require (
 	github.com/opencontainers/runtime-spec v1.0.3-0.20200929063507-e6143ca7d51d
 	github.com/stretchr/testify v1.7.0
 	github.com/talos-systems/crypto v0.3.4
-	github.com/talos-systems/go-blockdevice v0.2.4
+	github.com/talos-systems/go-blockdevice v0.2.5
 	github.com/talos-systems/go-debug v0.2.1
 	github.com/talos-systems/net v0.3.1-0.20211129211222-b4b718179a1a
 	google.golang.org/genproto v0.0.0-20211118181313-81c1377c94b1
