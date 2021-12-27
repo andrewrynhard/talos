@@ -23,7 +23,7 @@ require (
 	k8s.io/cli-runtime v0.23.0-alpha.4 // indirect
 	k8s.io/client-go v0.23.0-alpha.4
 	k8s.io/component-base v0.23.0-alpha.4 // indirect
-	k8s.io/cri-api v0.23.0-alpha.4
+	k8s.io/cri-api v0.24.0-alpha.1
 	k8s.io/kubectl v0.23.0-alpha.4
 	k8s.io/kubelet v0.23.0-alpha.4
 )
@@ -275,7 +275,7 @@ require (
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
 	golang.org/x/mod v0.5.1 // indirect
 	golang.org/x/oauth2 v0.0.0-20210819190943-2bc19b11175f // indirect
-	golang.org/x/text v0.3.6 // indirect
+	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/tools v0.1.7 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	golang.zx2c4.com/wireguard v0.0.0-20211123210315-387f7c461a16 // indirect
