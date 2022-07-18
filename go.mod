@@ -23,7 +23,7 @@ require (
 	k8s.io/cli-runtime v0.23.1 // indirect
 	k8s.io/client-go v0.23.1
 	k8s.io/component-base v0.23.1
-	k8s.io/cri-api v0.23.1
+	k8s.io/cri-api v0.24.3
 	k8s.io/kubectl v0.23.1
 	k8s.io/kubelet v0.23.1
 )
@@ -109,9 +109,9 @@ require (
 	go.etcd.io/etcd/etcdutl/v3 v3.5.1
 	go.uber.org/atomic v1.9.0
 	go.uber.org/zap v1.20.0
-	golang.org/x/net v0.0.0-20220107192237-5cfca573fb4d
+	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e
+	golang.org/x/sys v0.0.0-20220209214540-3681064d5158
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
 	golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20211230205640-daad0b7ba671
