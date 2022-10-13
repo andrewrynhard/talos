@@ -28,7 +28,7 @@ import (
 )
 
 const (
-	configISOLabel          = "cidata"
+	configISOLabel          = "config-2"
 	configNetworkConfigPath = "network-config"
 	configMetaDataPath      = "meta-data"
 	configUserDataPath      = "user-data"
@@ -137,13 +137,13 @@ func (n *Nocloud) configFromCD() (metaConfig []byte, networkConfig []byte, machi
 		return nil, nil, nil, errors.ErrNoConfigSource
 	}
 
-	log.Printf("found config disk (cidata) at %s", dev.Path)
+	log.Printf("found config disk (%s) at %s", configISOLabel, dev.Path)
 
 	if err = unix.Mount(dev.Path, mnt, sb.Type(), unix.MS_RDONLY, ""); err != nil {
 		return nil, nil, nil, errors.ErrNoConfigSource
 	}
 
-	log.Printf("fetching meta config from: cidata/%s", configMetaDataPath)
+	log.Printf("fetching meta config from: %s/%s", configISOLabel, configMetaDataPath)
 
 	metaConfig, err = os.ReadFile(filepath.Join(mnt, configMetaDataPath))
 	if err != nil {
@@ -152,7 +152,7 @@ func (n *Nocloud) configFromCD() (metaConfig []byte, networkConfig []byte, machi
 		metaConfig = nil
 	}
 
-	log.Printf("fetching network config from: cidata/%s", configNetworkConfigPath)
+	log.Printf("fetching network config from: %s/%s", configISOLabel,  configNetworkConfigPath)
 
 	networkConfig, err = os.ReadFile(filepath.Join(mnt, configNetworkConfigPath))
 	if err != nil {
@@ -161,7 +161,7 @@ func (n *Nocloud) configFromCD() (metaConfig []byte, networkConfig []byte, machi
 		networkConfig = nil
 	}
 
-	log.Printf("fetching machine config from: cidata/%s", configUserDataPath)
+	log.Printf("fetching machine config from: %s/%s", configISOLabel, configUserDataPath)
 
 	machineConfig, err = os.ReadFile(filepath.Join(mnt, configUserDataPath))
 	if err != nil {
